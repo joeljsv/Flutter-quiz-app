@@ -7,11 +7,11 @@ class Result extends StatelessWidget {
   String get resultPhase {
     String reText;
     if (score <= 30) {
-      reText = ' Good';
+      reText = 'You areGood';
     } else if (30 < score && score <= 60) {
-      reText = 'Better';
+      reText = 'You are Better';
     } else {
-      reText = 'Exelent';
+      reText = 'You are Exelent';
     }
     return reText;
   }
